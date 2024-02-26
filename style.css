@@ -1,0 +1,303 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #222;
+  color: white;
+}
+
+/* Header styles */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.header .logo {
+  width: 100px;
+  height: 30px;
+
+}
+
+.header .nav {
+  display: flex;
+  list-style: none;
+}
+
+.header .nav li {
+  margin: 0 10px;
+}
+
+.header .nav li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+       font-size: larger;
+}
+
+.header .nav li a:hover {
+  color: #1abc9c;
+}
+
+.header .intro {
+  background-color: #ffae00;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Main styles */
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  padding: 40px;
+  position: relative;
+  top: 0px;
+ right: 50px;
+  left: 15%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.info {
+    display: flex;
+    align-items: flex-start; /* Align items to the start of the flex container */
+  }
+  
+  .info > * {
+    margin-right: 20px; /* Add spacing between elements */
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .buttons .download-link {
+    margin-right: 10px; /* Add spacing between buttons */
+    font-weight: bold;
+  }
+  
+.main .profile {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    top: 28%;
+    left: 54%;
+    transform: translate(-50%, -50%); /* Center horizontally and vertically */
+  }
+  
+
+.main .info {
+  margin-left: 40px;
+}
+
+.main .info h1 {
+  font-size: 60px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.main .info h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.main .info p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.main .info .buttons {
+  display: flex;
+}
+
+.main .info .buttons a {
+  display: inline-block;
+  background-color: #ffae00; 
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+html body div.header a.intro{
+    color: #ffffff; 
+}
+.main .info .buttons a:hover {
+  background-color: #16a085;
+}
+
+/* Footer styles */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.footer .social {
+  display: flex;
+  list-style: none;
+}
+
+.footer .social li {
+  margin: 0 13px;
+}
+
+
+.footer .social li a i {
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  line-height: 30px;
+  text-align: center;
+}
+
+
+ .copy{
+    color: #FFFFFF;
+}
+
+
+
+    body {
+      margin: 0;
+      overflow: hidden; /* Hide scrollbars */
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; /* Distribute items evenly */
+      padding: 20px;
+      background-color: #f8f9fa;
+    }
+    h5 {
+        border: 1px solid #ffae00; /* Add a 2px solid black border */
+        padding: 8px; /* Add some padding to create space between the text and the border */
+      }
+    .nav {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .nav li {
+      margin-right: 20px;
+    }
+
+    .main {
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      justify-content: flex-start;
+      
+    }
+
+    .info {
+      margin-right: 20px;
+    }
+
+    .footer {
+      display: flex;
+      justify-content: space-between; /* Distribute items evenly */
+      padding: 10px;
+      background-color: #525252;;
+    }
+
+    .social {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .social li {
+      margin-right: 10px;
+    }
+
+    .copy {
+      margin: 0;
+    }
+
+    .profile {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin: auto; /* Center the image horizontally */
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+  
+      .header {
+        background-color: transparent; /* Set header background to transparent */
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+  
+      .nav {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+  
+      .nav li {
+        margin-right: 20px;
+      }
+  
+      .nav li:first-child a {
+        color: #ffae00; 
+       font-weight: bold;
+       font-size: larger;
+      }
+      
+      .intro {
+        color: #FFFFFF; /* Change color of the "INTRO" link */
+      }
+  
+      .main {
+        padding: 40px;
+      }
+      body{
+        background-color: #383838;
+      }
+.nav li a {
+        color: #ff0000; /* Set the color of the navbar links */
+      }     
+
+      html body div.main div.info div.buttons a{
+        background-color: #ffae00;
+      }
+    
+      
+      
+      html body div.header img.logo{
+                width: 100px; /* Set the width */
+        height: 50px; /* Maintain aspect ratio */
+        right: 10px;
+      }
+     
